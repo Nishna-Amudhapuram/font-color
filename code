@@ -1,0 +1,8 @@
+from colorama import init, Fore
+init()
+print(Fore.RED+"Blue Text")
+print(Fore.BLUE+"Green Text")
+print(Fore.GREEN+"Red Text")
+print(Fore.YELLOW+"White Text")
+print(Fore.RESET)  # To reset the changes
+print("hello")
